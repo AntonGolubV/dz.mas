@@ -1,0 +1,158 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title> 
+</head> 
+<body> 
+    <script> 
+       
+     /*  Задание 1
+      let arr = []; 
+       
+      for(let i = 0; i<10; i++){ 
+        let value = +prompt('Введите число'); 
+        arr.push(value); 
+      } 
+       
+      for(let i = 0; i<arr.length; i++){ 
+        if(arr[i]%2 === 0){ 
+            console.log(arr[i]); 
+        } 
+      } 
+      console.log(arr);  */
+
+      /* Задание 2 */
+     /*  let arr = [];
+      let arr1 = [];
+      for(let i = 0; i<10; i++){ 
+        let value = +prompt('Введите число'); 
+        arr.push(value); 
+      } 
+      console.log(arr);
+      for(let i = 0; i<arr.length; i++){ 
+        let value = arr[i]*arr[i];
+            arr1.push(value); 
+      }
+      console.log(arr1);
+      
+      
+      Задание 3*/
+      /* let arr = [];
+      let value = +prompt('Сколько чисел вы хотите ввести?');
+      for(let i=0; i<value; i++){
+        let value1 = +prompt('Ввелите число');
+        arr.push(value1);
+      }
+      console.log(arr);
+      let arr1 = arr.reverse();
+      console.log(arr1);
+
+
+      Задание 4 */
+      /* let arr = [];
+      let arr1 = [];
+      
+      for(let i=0; i<10; i++){
+        let value = parseInt(Math.random()* ((9) - (0)) + (-0));
+        let value1 = parseInt(Math.random()* ((9) - (0)) + (-0));
+        arr.push(value);
+        
+        arr1.push(value1);
+        
+        if(arr[i] == arr1[i]){
+          console.log(arr[i]);
+        }
+          
+        
+      }
+
+      console.log(arr);
+      console.log(arr1);
+      
+        */
+       /* Задание 5 S
+       for(let i=0; i<10; i++){
+        let count = 0;
+        if(i == 0){
+            arr1.push(arr[i]);
+        } else {
+            for(let k = 0; k<arr1.length; k++){
+                if(arr[i] == arr1[k]){
+                   count++;  
+                }
+               
+            }
+            if(count == 0){
+                arr1.push(arr[i]);
+            }
+        }
+        
+    
+      }
+      
+       console.log(arr);
+      console.log(arr1);
+
+      Задание 7*/
+        let arr = ['Петя',12,14,'Оля',10,'Вася'];
+      for(let i=0; i<arr.length; i++){
+        let str = '';
+        if(arr[i]  >= 'a'){
+          delete arr[i];
+        }
+         
+          console.log(str);
+      }
+        
+        console.log(arr); 
+
+      /* Задание 8 */
+      /* let arr = [];
+      
+      for(let i = 0; i<3; i++){
+        let value = prompt('Введите строку');
+        arr.push(value);
+      
+        
+      }
+      if(arr[0].length > arr[1].length && arr[0].length > arr[2].length){
+          console.log(`Самая длинная строка: ${arr[0]}, её индекс: 0, её длинна: ${arr[0].length};`);
+        }else if(arr[1].length > arr[0].length && arr[1].length > arr[2].length){
+          console.log(`Самая длинная строка: ${arr[1]}, её индекс: 1, её длинна: ${arr[1].length};`);
+        }else if(arr[2].length >arr[0].length && arr[2].length > arr[1].length){
+          console.log(`Самая длинная строка: ${arr[2]}, её индекс: 2, её длинна: ${arr[2].length};`);
+        }
+      console.log(arr); 
+        */
+
+      /* Задание 10 */
+      /* let arr = ['af','afe','aa'];
+     
+        arr.sort();
+      
+      console.log(arr);
+
+      Задание 11 */
+      /* let arr = ['bbhuhu4d24c','subg5dljnh','svgfsg43'];
+      for(let i = 0; i<arr.length; i++){
+        let str = '';
+        for(let item of arr[i]){
+          if((item => '0')&&( item <= '9')){
+            str = str +item;
+          }
+          arr[i] = str;
+         
+        }
+        arr.sort(function(a,b){
+          return a - b;
+        });
+      }
+      console.log(arr); */
+    </script>  
+     
+ 
+</body> 
+</html>
